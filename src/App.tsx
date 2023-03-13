@@ -1,9 +1,11 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { RootPage } from './view/pages/RootPage';
 
 export function App() {
   return (
-    <div className="App">
-
-    </div>
+    <BrowserRouter>
+      <RootPage />
+    </BrowserRouter>
   );
 }
